@@ -17,7 +17,7 @@ pipeline {
 				echo 'hi test'
 				}
 			}
-		}
+		
 		
 		stage ('Deployment Stage') {
 		
@@ -25,6 +25,6 @@ pipeline {
 				echo 'hi deploy'
 				}
 			}
-		}	
-	}
+	}	
+	
 }
